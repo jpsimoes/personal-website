@@ -18,9 +18,6 @@ website:
         href: blog.qmd
       - text: "Software"
         href: software.qmd
-  page-footer:
-    center: |
-      © {{< meta year >}} Jorge Piano Simões · Made with [Quarto](https://quarto.org)
   open-graph: true
   twitter-card: true
   search: false
