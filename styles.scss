@@ -428,10 +428,14 @@ body:not(.home) main {
   background: transparent;
   border-top: 1px solid var(--border-subtle);
   text-align: center;
-  padding-top: 2rem;
-  padding-bottom: 3rem;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
   font-size: 0.875rem;
-  margin-top: 4rem;
+  margin-top: 6rem;
+}
+
+.page-footer p {
+  margin: 0;
 }
 
 .page-footer a {
