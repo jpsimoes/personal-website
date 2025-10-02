@@ -18,6 +18,10 @@ website:
         href: blog.qmd
       - text: "Software"
         href: software.qmd
+  page-footer: 
+    left: ""
+    center: ""
+    right: ""
   open-graph: true
   twitter-card: true
   search: false
