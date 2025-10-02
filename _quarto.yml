@@ -1,0 +1,43 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Jorge Piano Simões"
+  site-url: "https://example.com"
+  description: "Health Psychology, AI and Technology"
+  favicon: img/portrait.png
+  navbar:
+    left:
+      - text: "Jorge Piano Simões"
+        href: index.qmd
+    right:
+      - text: "About"
+        href: about.qmd
+      - text: "Blog"
+        href: blog.qmd
+      - text: "Software"
+        href: software.qmd
+  page-footer:
+    center: |
+      © {{< meta year >}} Jorge Piano Simões · Made with [Quarto](https://quarto.org)
+  open-graph: true
+  twitter-card: true
+  search: false
+  repo-url: ""
+  repo-actions: []
+
+format:
+  html:
+    theme:
+      - flatly
+      - styles.scss
+    toc: false
+    smooth-scroll: true
+    df-print: paged
+    lightbox: true
+    include-in-header:
+      - fa.html
+
+metadata-files:
+  - _defaults.yml

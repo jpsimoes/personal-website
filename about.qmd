@@ -1,0 +1,21 @@
+---
+title: "About"
+---
+
+I'm an Assistant Professor in Health Psychology, AI and Technology at the University of Twente. My research focuses on [add your research areas here].
+
+## Background
+
+[Add information about your educational background, previous positions, and career trajectory]
+
+## Research Interests
+
+[List your main research interests and focus areas]
+
+## Contact
+
+Feel free to reach out via [email](mailto:j.pianosimoes@utwente.nl) or connect with me on [GitHub](https://github.com/YOURUSER).
+
+## This Site
+
+This site is built with [Quarto](https://quarto.org/) and deployed on Netlify. The design is inspired by [Simon P. Couch's website](https://www.simonpcouch.com/). All blog posts are released under a [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).

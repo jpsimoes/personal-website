@@ -1,0 +1,16 @@
+
+---
+title: "Software"
+---
+
+I've written a few packages and contributed to others. Below are placeholders—replace with your own.
+
+## CRAN Packages Maintained by Me
+- **pkgA** — one-liner description
+- **pkgB** — one-liner description
+
+## CRAN Packages I've Contributed To
+- **pkgC** — one-liner description
+
+## GitHub-Only Projects
+- **coolpkg** — one-liner description
