@@ -8,7 +8,7 @@
 
 <meta name="author" content="Your Name">
 
-<title>Your Name - Some Pitters and Patters with R</title>
+<title>Jorge Piano Simões - Blog</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -69,28 +69,36 @@ ul.task-list{list-style: none;}
     }
   });
   </script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
 
 
-<link rel="alternate" type="application/rss+xml" title="Your Name" href="blog.xml"><meta property="og:title" content="Your Name - Some Pitters and Patters with R">
-<meta property="og:site-name" content="Your Name">
-<meta name="twitter:title" content="Your Name - Some Pitters and Patters with R">
-<meta name="twitter:card" content="summary">
+<link rel="alternate" type="application/rss+xml" title="Jorge Piano Simões" href="blog.xml"><meta property="og:title" content="Jorge Piano Simões - Blog">
+<meta property="og:image" content="https://example.com/../img/portrait.png">
+<meta property="og:site-name" content="Jorge Piano Simões">
+<meta name="twitter:title" content="Jorge Piano Simões - Blog">
+<meta name="twitter:image" content="https://example.com/../img/portrait.png">
+<meta name="twitter:card" content="summary_large_image">
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
       <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">Your Name</span>
+    <span class="navbar-title">Jorge Piano Simões</span>
   </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html">Jorge Piano Simões</a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
     <a class="nav-link" href="./about.html">About</a>
   </li>  
@@ -109,13 +117,15 @@ ul.task-list{list-style: none;}
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Some Pitters and Patters with R</h1>
+<h1 class="title">Blog</h1>
 </div>
 
 
@@ -127,7 +137,7 @@ ul.task-list{list-style: none;}
     <div>
     <div class="quarto-title-meta-heading">Author</div>
     <div class="quarto-title-meta-contents">
-             <p>Your Name <a href="https://orcid.org/true" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
+             <p>Your Name </p>
           </div>
   </div>
     
@@ -137,15 +147,14 @@ ul.task-list{list-style: none;}
 
 </header>
 
-<p>This is where I sometimes write about what I’m up to related to R, data science, and statistics. I hope folks find some of these notes useful.</p>
-<p><a href="blog.xml" class="subscribe-rss">Subscribe via RSS</a></p>
+<p>I write about health psychology, AI, technology, and research methods. <a href="blog.xml">Subscribe via RSS</a>.</p>
 
 
 
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1756159200000" data-listing-file-modified-sort="1757956470000" data-listing-reading-time-sort="0.08">
+<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1756159200000" data-listing-file-modified-sort="1759379528847" data-listing-reading-time-sort="0.08">
 <div class="thumbnail">
 <p><a href="./posts/2025-08-26-wrong.html"> <img src="./img/portrait.png" class="thumnail-image"> </a></p>
 </div>
@@ -170,7 +179,7 @@ Aug 26, 2025
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-listing-date-sort="1755122400000" data-listing-file-modified-sort="1757956470000" data-listing-reading-time-sort="0.06">
+<div class="quarto-post image-right" data-index="1" data-listing-date-sort="1755122400000" data-listing-file-modified-sort="1759379528847" data-listing-reading-time-sort="0.06">
 <div class="thumbnail">
 <p><a href="./posts/2025-08-14-mcp.html"> <img src="./img/portrait.png" class="thumnail-image"> </a></p>
 </div>
@@ -282,7 +291,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
-      <div class="nav-footer-center">© 2025 Your Name · Made with <a href="https://quarto.org">Quarto</a></div>
+      <div class="nav-footer-center">© 2025 Jorge Piano Simões · Made with <a href="https://quarto.org">Quarto</a></div>
   </div>
 </footer>
 

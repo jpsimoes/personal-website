@@ -12,12 +12,12 @@ website:
       - text: "Jorge Piano Simões"
         href: index.qmd
     right:
-      - text: "About"
-        href: about.qmd
+      - text: "Projects"
+        href: projects.qmd
       - text: "Blog"
         href: blog.qmd
-      - text: "Software"
-        href: software.qmd
+      - text: "About"
+        href: about.qmd
   page-footer: 
     left: ""
     center: ""

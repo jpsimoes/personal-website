@@ -65,9 +65,9 @@
   {
     "objectID": "blog.html",
     "href": "blog.html",
-    "title": "Some Pitters and Patters with R",
+    "title": "Blog",
     "section": "",
-    "text": "Subscribe via RSS\n\n\n\n\n\n\n\n\n  \n\n\n\n\nI was wrong about something\n\n\n\n\n\nA brief post with placeholder content. Replace with your own words and images.\n\n\n\n\n\n\nAug 26, 2025\n\n\n\n\n\n\n  \n\n\n\n\nR and the Model Context Protocol\n\n\n\n\n\nAnother placeholder post. Replace with your own content.\n\n\n\n\n\n\nAug 14, 2025\n\n\n\n\n\n\nNo matching items\n\nReuseCC BY-SA 4.0"
+    "text": "I was wrong about something\n\n\n\n\n\nA brief post with placeholder content. Replace with your own words and images.\n\n\n\n\n\n\nAug 26, 2025\n\n\n\n\n\n\n  \n\n\n\n\nR and the Model Context Protocol\n\n\n\n\n\nAnother placeholder post. Replace with your own content.\n\n\n\n\n\n\nAug 14, 2025\n\n\n\n\n\n\nNo matching items\n\nReuseCC BY-SA 4.0"
   },
   {
     "objectID": "about.html#background",
@@ -96,5 +96,33 @@
     "title": "About",
     "section": "This Site",
     "text": "This Site\nThis site is built with Quarto and deployed on Netlify. The design is inspired by Simon P. Couch’s website. All blog posts are released under a Creative Commons Attribution-ShareAlike 4.0 International License."
+  },
+  {
+    "objectID": "2025-08-14-mcp.html",
+    "href": "2025-08-14-mcp.html",
+    "title": "R and the Model Context Protocol",
+    "section": "",
+    "text": "Another placeholder post. Replace with your own content."
+  },
+  {
+    "objectID": "2025-08-14-mcp.html#notes",
+    "href": "2025-08-14-mcp.html#notes",
+    "title": "R and the Model Context Protocol",
+    "section": "Notes",
+    "text": "Notes\n\nPoint A\nPoint B"
+  },
+  {
+    "objectID": "2025-08-26-wrong.html",
+    "href": "2025-08-26-wrong.html",
+    "title": "I was wrong about something",
+    "section": "",
+    "text": "A brief post with placeholder content. Replace with your own words and images."
+  },
+  {
+    "objectID": "2025-08-26-wrong.html#section",
+    "href": "2025-08-26-wrong.html#section",
+    "title": "I was wrong about something",
+    "section": "Section",
+    "text": "Section\nWrite your thoughts here."
   }
 ]
