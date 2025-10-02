@@ -124,5 +124,26 @@
     "title": "I was wrong about something",
     "section": "Section",
     "text": "Section\nWrite your thoughts here."
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "I’m working on several initiatives to make evidence-based psychology more accessible."
+  },
+  {
+    "objectID": "projects.html#active-projects",
+    "href": "projects.html#active-projects",
+    "title": "Projects",
+    "section": "Active Projects",
+    "text": "Active Projects\n\nTinnitus Repository\nA Substack newsletter where I translate the latest tinnitus research into practical, evidence-based insights. Topics include:\nWhat you’ll get:\n\nStop falling for myths — Learn which “cures” are snake oil (backed by state-of-the-art peer-reviewed research)\nReduce distress today — Simple psychological techniques you can use immediately\nStay current — Accessible summaries of the latest scientific breakthroughs\nExpert perspectives — Exclusive interviews with leading tinnitus researchers\nYour voice matters — Participate in research surveys that shape future treatment approaches\n\nSubscribe to the newsletter →"
+  },
+  {
+    "objectID": "projects.html#future-projects",
+    "href": "projects.html#future-projects",
+    "title": "Projects",
+    "section": "Future Projects",
+    "text": "Future Projects\nI’m developing additional resources focused on mental health and chronic condition management. Check back here for updates."
   }
 ]
