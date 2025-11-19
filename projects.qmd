@@ -1,28 +1,44 @@
 ---
 title: "Projects"
+format:
+  html:
+    page-layout: full
 ---
 
-I'm working on several initiatives to make evidence-based psychology more accessible.
+I am working on several initiatives to bridge the gap between evidence-based psychology and modern technology.
 
-## Active Projects
+## Academic Projects
 
-### [Tinnitus Repository](https://yoursubstack.substack.com)
+::: {.project-grid}
 
-A Substack newsletter where I translate the latest tinnitus research into practical, evidence-based insights. Topics include:
+::: {.project-card}
+### Chronic Pain & AI
+Using machine learning to predict flare-ups in chronic pain patients. This project utilizes wearable sensor data to model individual pain trajectories.
+[Learn more →](#)
+:::
 
-**What you'll get:**
+::: {.project-card}
+### Mobile Health Interventions
+Evaluating the efficacy of smartphone-based ecological momentary interventions (EMI) for tinnitus distress reduction in a randomized controlled trial.
+[Learn more →](#)
+:::
 
-- **Stop falling for myths** — Learn which "cures" are snake oil (backed by state-of-the-art peer-reviewed research)
-- **Reduce distress today** — Simple psychological techniques you can use immediately
-- **Stay current** — Accessible summaries of the latest scientific breakthroughs
-- **Expert perspectives** — Exclusive interviews with leading tinnitus researchers
-- **Your voice matters** — Participate in research surveys that shape future treatment approaches
+:::
 
+## Personal Projects
 
-**[Subscribe to the newsletter →](https://yoursubstack.substack.com)**
+::: {.project-grid}
 
----
+::: {.project-card}
+### Tinnitus Repository
+**Status: Active** A Substack newsletter where I translate the latest tinnitus research into practical, evidence-based insights. Includes expert interviews and myth-busting.
+[Visit Newsletter →](https://yoursubstack.substack.com)
+:::
 
-## Future Projects
+::: {.project-card}
+### Quarto Academic Theme
+**Status: In Development** An open-source Quarto theme designed specifically for health psychology researchers, focusing on readability, trust, and conversion.
+[View on GitHub →](https://github.com/YOURUSER)
+:::
 
-I'm developing additional resources focused on mental health and chronic condition management. Check back here for updates.
+:::

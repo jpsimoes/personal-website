@@ -1,0 +1,31 @@
+---
+title: "Contact"
+about:
+  template: jolla
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:j.pianosimoes@utwente.nl
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/YOURPROFILE
+    - icon: github
+      text: GitHub
+      href: https://github.com/YOURUSER
+    - icon: twitter
+      text: Twitter
+      href: https://twitter.com/YOURHANDLE
+---
+
+I am always open to discussing research collaborations, speaking opportunities, or questions about health psychology and AI.
+
+### Mailing Address
+
+**University of Twente** Department of Psychology, Health & Technology  
+Drienerlolaan 5  
+7522 NB Enschede  
+The Netherlands
+
+### Office Hours
+
+If you are a student at UTwente, feel free to stop by my office (Room XYZ) on Tuesdays between 14:00 and 16:00.

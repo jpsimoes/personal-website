@@ -12,19 +12,22 @@ website:
       - text: "Jorge Piano Simões"
         href: index.qmd
     right:
+      - text: "About"
+        href: about.qmd
+      - text: "Publications"
+        href: publications.qmd
       - text: "Projects"
         href: projects.qmd
       - text: "Blog"
         href: blog.qmd
-      - text: "About"
-        href: about.qmd
+      - text: "Contact"
+        href: contact.qmd
   page-footer: 
-    left: ""
-    center: ""
-    right: ""
+    left: "© 2025 Jorge Piano Simões"
+    right: "Built with Quarto"
   open-graph: true
   twitter-card: true
-  search: false
+  search: true
   repo-url: ""
   repo-actions: []
 
