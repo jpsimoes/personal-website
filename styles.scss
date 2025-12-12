@@ -1,16 +1,7 @@
 /*-- scss:rules --*/
 
-/* Hide default Quarto title block on home page */
-.home .quarto-title-block,
-.home .quarto-title-meta,
-.home #title-block-header,
-.home .quarto-title,
-.home .quarto-title-author-name,
-.home .quarto-title-meta-heading,
-.home .quarto-title-meta-contents,
-#quarto-content > #quarto-document-content > .quarto-title-block,
-#title-block-header,
-.quarto-title-block:first-child {
+/* Hide any residual Quarto title block elements */
+#title-block-header {
   display: none !important;
 }
 

@@ -1,8 +1,6 @@
 ---
-title: ""
-title-block-style: none
+pagetitle: "Jorge Piano Simões"
 page-layout: custom
-page-classes: home
 ---
 
 <div class="hero">

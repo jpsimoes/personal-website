@@ -1,10 +1,9 @@
-
 # Defaults for posts
 format:
   html:
     toc: true
     toc-depth: 3
 freeze: auto
-author: "Your Name"
+author: "Jorge Piano Simões"
 categories: []
-image: ../img/portrait.png
+image: img/portrait.png
