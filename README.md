@@ -1,22 +1,32 @@
+# Jorge Piano Simões - Personal Website
 
-# Quarto personal site
+Personal academic website for Jorge Piano Simões, PhD - Assistant Professor in Health Psychology at the University of Twente.
 
-This is a personal website built with Quarto
+## About
+
+This site showcases my research on mental resilience, chronic conditions (tinnitus, pain, depression, anxiety), and technology-based interventions. I combine therapeutic approaches (ACT, CBT, behavior change techniques) with digital tools like wearable sensors and smartphone tracking.
 
 ## Structure
-- `_quarto.yml` — site config (title, navbar, footer, theme)
-- `index.qmd` — home with hero image and tagline
-- `about.qmd` — about page
-- `software.qmd` — software/packages page
-- `blog.qmd` — blog listing page with RSS
-- `posts/` — example posts
-- `styles.scss` — light custom styling
-- `img/portrait.png` — placeholder avatar (replace)
 
-## Usage
-1. Install [Quarto](https://quarto.org).
-2. In this folder, run:
-   ```bash
-   quarto preview
-   ```
-3. Edit files and redeploy as needed (Netlify, GitHub Pages, etc.).
+- `index.qmd` — Landing page with hero section
+- `about.qmd` — Background and research interests
+- `publications.qmd` — Academic publications
+- `projects.qmd` — Research projects
+- `blog.qmd` — Blog listing
+- `posts/` — Blog posts
+- `contact.qmd` — Contact information
+
+## Built With
+
+- [Quarto](https://quarto.org) — Scientific publishing system
+- Deployed on GitHub Pages
+
+## Local Development
+
+```bash
+quarto preview
+```
+
+## License
+
+Content is released under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).

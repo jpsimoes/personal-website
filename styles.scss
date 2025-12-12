@@ -60,7 +60,7 @@
 .hero-sep {
   width: 80px;
   border: none;
-  border-top: 2px solid #dee2e6;
+  border-top: 2px solid #adb5bd;
   margin: 2rem auto;
 }
 
@@ -76,7 +76,13 @@
 .hero-icons a {
   color: #6c757d;
   font-size: 1.75rem;
+  text-decoration: none;
   transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.hero-icons a:focus {
+  outline: none;
+  text-decoration: none;
 }
 
 .hero-icons a:hover {
