@@ -2,7 +2,7 @@
 title: "The Rooster, The Soup, and The Scapegoat"
 date: 2024-12-12
 categories: [psychology, philosophy, culture]
-image: ../img/janosch.png
+image: ../img/janosch.jpg
 ---
 
 ## The Rooster, The Soup, and The Scapegoat
