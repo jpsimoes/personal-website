@@ -8,24 +8,26 @@ about:
       href: mailto:j.pianosimoes@utwente.nl
     - icon: linkedin
       text: LinkedIn
-      href: https://www.linkedin.com/in/YOURPROFILE
+      href: https://www.linkedin.com/in/jorge-piano-simoes-71671311a/
     - icon: github
       text: GitHub
-      href: https://github.com/YOURUSER
-    - icon: twitter
-      text: Twitter
-      href: https://twitter.com/YOURHANDLE
+      href: https://github.com/jpsimoes/
+    - icon: mortarboard
+      text: ORCID
+      href: https://orcid.org/0000-0003-3397-2319
+    - icon: building
+      text: University Page
+      href: https://people.utwente.nl/j.pianosimoes
 ---
 
 I am always open to discussing research collaborations, speaking opportunities, or questions about health psychology and AI.
 
+**Email:** j.pianosimoes[at]utwente.nl
+
 ### Mailing Address
 
-**University of Twente** Department of Psychology, Health & Technology  
-Drienerlolaan 5  
-7522 NB Enschede  
+**University of Twente**
+Department of Psychology, Health & Technology
+Drienerlolaan 5
+7522 NB Enschede
 The Netherlands
-
-### Office Hours
-
-If you are a student at UTwente, feel free to stop by my office (Room XYZ) on Tuesdays between 14:00 and 16:00.
