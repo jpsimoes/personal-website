@@ -1,5 +1,6 @@
 ---
-title: false
+title: ""
+title-block-style: none
 page-layout: custom
 page-classes: home
 ---
