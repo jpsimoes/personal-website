@@ -4,7 +4,7 @@ project:
 
 website:
   title: "Jorge Piano Simões"
-  site-url: "https://example.com"
+  site-url: "https://jpsimoes.github.io/personal-website"
   description: "Health Psychology, AI and Technology"
   favicon: img/portrait.png
   navbar:
