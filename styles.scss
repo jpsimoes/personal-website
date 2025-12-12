@@ -1,14 +1,27 @@
 /*-- scss:rules --*/
 
-/* --- UPDATE THIS EXISTING RULE --- */
-/* Reduced size for better fold visibility */
+/* Hide default Quarto title block on home page */
+.home .quarto-title-block,
+.home .quarto-title-meta,
+.home #title-block-header {
+  display: none !important;
+}
+
+/* Hero Section - Centered Layout */
+.hero {
+  text-align: center;
+  padding: 3rem 1rem 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
 .hero img {
-  width: 380px;
-  height: 380px;
+  width: 280px;
+  height: 280px;
   border-radius: 9999px;
   object-fit: cover;
   object-position: center;
-  border: 4px solid var(--surface);
+  border: 4px solid #e9ecef;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
   margin-bottom: 1.5rem;
   display: block;
@@ -16,7 +29,62 @@
   margin-right: auto;
 }
 
-/* --- ADD THESE NEW STYLES AT THE BOTTOM --- */
+.hero h1 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin: 0 0 0.75rem;
+  color: #212529;
+}
+
+.hero .tagline {
+  font-size: 1.15rem;
+  color: #6c757d;
+  margin: 0 0 0.5rem;
+  font-style: italic;
+}
+
+.hero .credentials {
+  font-size: 1rem;
+  color: #495057;
+  margin: 0;
+}
+
+.hero .credentials a {
+  color: #2c7be5;
+  text-decoration: none;
+}
+
+.hero .credentials a:hover {
+  text-decoration: underline;
+}
+
+/* Hero Separator - Short centered line */
+.hero-sep {
+  width: 80px;
+  border: none;
+  border-top: 2px solid #dee2e6;
+  margin: 2rem auto;
+}
+
+/* Hero Icons - Centered and properly sized */
+.hero-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 1rem 0 3rem;
+}
+
+.hero-icons a {
+  color: #6c757d;
+  font-size: 1.75rem;
+  transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.hero-icons a:hover {
+  color: #2c7be5;
+  transform: translateY(-2px);
+}
 
 /* Project Card Grid System */
 .project-grid {

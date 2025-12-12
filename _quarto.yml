@@ -8,9 +8,6 @@ website:
   description: "Health Psychology, AI and Technology"
   favicon: img/portrait.png
   navbar:
-    left:
-      - text: "Jorge Piano Simões"
-        href: index.qmd
     right:
       - text: "About"
         href: about.qmd
