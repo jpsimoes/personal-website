@@ -1,7 +1,7 @@
 
-# Quarto personal site (Simon P. Couch–style clone)
+# Quarto personal site
 
-This is a Quarto website scaffold that mimics the structure and feel of https://www.simonpcouch.com (with placeholders).
+This is a personal website built with Quarto
 
 ## Structure
 - `_quarto.yml` — site config (title, navbar, footer, theme)
