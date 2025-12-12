@@ -12,7 +12,7 @@ website:
       - text: "About"
         href: about.qmd
       - text: "Publications"
-        href: publications.qmd
+        href: https://scholar.google.com/citations?user=CBjxV3cAAAAJ&hl=en
       - text: "Projects"
         href: projects.qmd
       - text: "Blog"
