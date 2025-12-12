@@ -1,4 +1,5 @@
 ---
+title: false
 page-layout: custom
 page-classes: home
 ---
