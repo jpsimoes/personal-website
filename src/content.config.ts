@@ -8,6 +8,10 @@ const writing = defineCollection({
     title: z.string(),
     date: z.coerce.date(),
     description: z.string(),
+    author: z.string().optional(),
+    pdf: z.string().optional(),
+    license: z.string().optional(),
+    licenseUrl: z.url().optional(),
   }),
 });
 
