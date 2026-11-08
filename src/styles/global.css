@@ -308,24 +308,16 @@ footer.colophon .links .icon {
   font-size: 0.9em;
 }
 
+.essay-license {
+  border-top: 1px solid var(--hairline);
+  padding-top: 0.8rem;
+  color: var(--ink-soft);
+  font-size: 0.85em;
+}
+
 .prose img {
   max-width: 100%;
   height: auto;
-}
-
-.prose table {
-  display: block;
-  overflow-x: auto;
-  border-collapse: collapse;
-  margin: 1.5rem 0;
-  font-size: 0.88em;
-  line-height: 1.35;
-}
-
-.prose th, .prose td {
-  padding: 0.5em 0.65em;
-  border-bottom: 1px solid var(--hairline);
-  vertical-align: top;
 }
 
 .study-figure {
@@ -351,88 +343,6 @@ footer.colophon .links .icon {
 
 .study-figure figcaption > em:only-child {
   font-style: normal;
-}
-
-.prose .review-settings {
-  display: table;
-  width: 100%;
-  margin-block: 2rem;
-  border-top: 1px solid var(--green);
-  font-variant-numeric: lining-nums tabular-nums;
-}
-
-.review-settings th, .review-settings td {
-  padding: 0.65rem 0.4rem;
-}
-
-.review-settings th:first-child, .review-settings td:first-child {
-  padding-left: 0;
-}
-
-.review-settings th:last-child, .review-settings td:last-child {
-  padding-right: 0;
-}
-
-.review-settings thead th, .mobile-table-label {
-  font: 500 0.68rem/1.3 var(--sans);
-  letter-spacing: 0.045em;
-  color: var(--ink-soft);
-}
-
-.review-settings th:not([align]) {
-  text-align: left;
-}
-
-.review-settings th[scope="row"] {
-  width: 27%;
-  font-weight: 500;
-  color: var(--green);
-}
-
-.mobile-table-label {
-  display: none;
-}
-
-@media (max-width: 36rem) {
-  .prose .review-settings, .review-settings tbody {
-    display: block;
-  }
-
-  .review-settings thead {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    overflow: hidden;
-    clip-path: inset(50%);
-  }
-
-  .review-settings tbody tr {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1.35fr;
-    gap: 0.65rem;
-    padding-block: 0.95rem;
-    border-bottom: 1px solid var(--hairline);
-  }
-
-  .review-settings tbody th, .review-settings tbody td {
-    padding: 0;
-    border: 0;
-    text-align: left;
-  }
-
-  .review-settings th[scope="row"], .review-settings td:last-child {
-    grid-column: 1 / -1;
-    width: auto;
-  }
-
-  .review-settings th[scope="row"] {
-    font-size: 1.06rem;
-  }
-
-  .mobile-table-label {
-    display: block;
-    margin-bottom: 0.1rem;
-  }
 }
 
 .prose pre {

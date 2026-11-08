@@ -47,6 +47,8 @@ const fmt = (d: Date) =>
       <div class="prose">
         <Content />
       </div>
+      {essay.data.license && essay.data.licenseUrl &&
+        <footer class="essay-license">Article and figures · <a rel="license" href={essay.data.licenseUrl}>{essay.data.license}</a></footer>}
     </article>
   </main>
 </Base>
